@@ -15,4 +15,30 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <com.morse.mui.DragView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:padding="10dp"
+        android:text="可拖拽"
+        android:visibility="gone" />
+
+    <com.morse.mlibrary.ui.BieChat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    <com.morse.mlibrary.ui.ControllerView
+        android:id="@+id/regionView"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:visibility="visible" />
+
+    <com.morse.mlibrary.ui.ControllerView
+        android:id="@+id/regionView1"
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:layout_alignParentBottom="true"
+        android:visibility="visible" />
+
 </android.support.constraint.ConstraintLayout>
